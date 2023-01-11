@@ -1,6 +1,9 @@
 from flask import Flask, request, render_template
 from utils import get_posts_all, get_comments_by_post_id, get_post_by_pk, search_for_posts, get_posts_by_user
+import logging
 
+
+logging.basicConfig(level=logging.INFO, filename="C:/Users/Alex/Desktop/Sky_python/kursovaya_inst/logs/py_log.log")
 
 
 app = Flask(__name__)
