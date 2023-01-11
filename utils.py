@@ -1,5 +1,5 @@
 import json
-import os
+
 
 def get_posts_all():
     """Функция загружает посты из файла"""
