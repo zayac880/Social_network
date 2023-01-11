@@ -1,4 +1,54 @@
-2023-01-11 00:32:53,216 [WARNING]  * Debugger is active!
-2023-01-11 00:32:53,220 [INFO]  * Debugger PIN: 129-842-664
-2023-01-11 00:33:14,004 [INFO] 127.0.0.1 - - [11/Jan/2023 00:33:14] "GET /posts/1 HTTP/1.1" 200 -
-2023-01-11 00:33:17,391 [INFO] 127.0.0.1 - - [11/Jan/2023 00:33:17] "GET /posts/2 HTTP/1.1" 200 -
+2023-01-11 00:58:35,514 [WARNING]  * Debugger is active!
+2023-01-11 00:58:35,519 [INFO]  * Debugger PIN: 129-842-664
+2023-01-11 00:59:04,036 [INFO] 127.0.0.1 - - [11/Jan/2023 00:59:04] "[33mGET / HTTP/1.1[0m" 404 -
+2023-01-11 00:59:08,842 [INFO] 127.0.0.1 - - [11/Jan/2023 00:59:08] "GET /posts HTTP/1.1" 200 -
+2023-01-11 00:59:12,109 [INFO] 127.0.0.1 - - [11/Jan/2023 00:59:12] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-842-664
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:14] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:14] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:16] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:16] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:16] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:16] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:17] "GET /user-feed/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:17] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:17] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:17] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:20] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:20] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:20] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:20] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:22] "GET /search?s=as HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:22] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:25] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:28] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:28] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:28] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2023 16:29:28] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-842-664
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-842-664
