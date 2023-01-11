@@ -53,6 +53,6 @@ def get_post_by_pk(pk):
 
 
 def get_posts():
-    """Ф"""
+    """Функция возвращает все посты"""
     data = get_posts_all()
     return data
