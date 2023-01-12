@@ -1,6 +1,5 @@
 import json
 
-
 def get_posts_all():
     """Функция загружает посты из файла"""
     with open("C:/Users/Alex/Desktop/Sky_python/kursovaya_inst/data/posts.json", "r", encoding="utf-8") as f:
