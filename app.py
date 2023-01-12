@@ -1,13 +1,16 @@
 from flask import Flask, request, render_template
+from api.api import api_blueprint
 from utils import get_posts_all, get_comments_by_post_id, get_post_by_pk, search_for_posts, get_posts_by_user
 import logging
 
 
-logging.basicConfig(level=logging.INFO, filename="C:/Users/Alex/Desktop/Sky_python/kursovaya_inst/logs/py_log.log")
+logging.basicConfig(level=logging.INFO, filename="C:/Users/Alex/Desktop/Sky_python/kursovaya_inst/logs/py_log.log",
+                    format="%(asctime)s [%(levelname)s] %(message)s")
 
 
 app = Flask(__name__)
-
+app.config["JSON_AS_ASCII"] = False
+app.register_blueprint(api_blueprint)
 
 @app.route("/")
 def home():
@@ -48,4 +51,4 @@ def page_server_error(error):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5009)
